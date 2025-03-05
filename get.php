@@ -70,4 +70,17 @@ We use echo to output the data to the screen.
 */
 
 
+/*Example 2
+Output
+You searched for: Most popular movies
+
+Explanation
+What you have input in the search bar will be displayed in the url.
+For example, if you input "Most popular movies" in the search bar, the url will be displayed as get.php?search=Most+popular+movies.
+The output will be "You searched for: Most popular movies".
+  
+
+The second example is good for search bars because it is not sensitive data and it is not secure/encrypted when using get.
+*/
+
 ?>
