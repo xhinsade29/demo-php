@@ -15,5 +15,4 @@ echo "i hope ill be to overcome this feeling soon. <br>";
 //It it similar to print, but echo can take multiple parameters directly to the web browser without using DOM.
 //echo has no return value
 
-
 ?>
