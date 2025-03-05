@@ -6,7 +6,7 @@
     <title>Practising Get for feedback</title>
 </head>
 <body>
-    
+ 
 <form action="get.php" method="get">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name">
@@ -16,6 +16,16 @@
     <textarea id="feedback" name="feedback"></textarea>
     <input type="submit" value="Submit">
 </form>
+
+<br>
+<br>
+
+<form action ="get.php" method = "get" >
+ <label  for = "search"> Search </label>
+ <input type="text" id = "search" name = "search">
+ <button type = "submit" > Search </button>
+</form >
+
 
 </body>
 </html>
@@ -28,7 +38,9 @@ echo"<br>";
 echo "Name: $name <br>";
 echo "$name Feedback: $feedback";
 
-
+//example for search bar
+$search = $_GET['search'];
+echo "You searched for: $search";
 
 // Key points about GET method:
 // 1. Collects form data and sends to server
@@ -56,5 +68,6 @@ $_GET is a superglobal variable that is used to collect form data after submitti
 By submitting the form, the data is sent to the server and the server will process the data and display the output to the screen.
 We use echo to output the data to the screen.
 */
+
 
 ?>
