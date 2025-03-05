@@ -45,4 +45,16 @@ notebook costs 8 each.
 The total amount is 72.
 
 */
+
+/* By using $
+we can assign a value to a variable and use it in the output.
+This is useful when we have a lot of data to output and we want to make our code more readable.
+It can use datatype such as string, integer, float, and boolean.
+
+for example:
+$name = "Kristine L. Lopez"; - string
+&quantity = 3; - integer
+$paper_price = 10.50; - float
+
+*/
 ?>
